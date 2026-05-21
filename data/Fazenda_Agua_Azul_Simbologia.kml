@@ -1,0 +1,2979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fazenda Água Azul - Parte A (Simbologia Completa)</name>
+
+    <!-- ESTILOS DO AUTOR (DYE) -->
+    <Style id="style_M_author">
+      <IconStyle>
+        <color>ff0000ff</color> <!-- Red -->
+        <scale>1.2</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="style_P_author">
+      <IconStyle>
+        <color>ff00ff00</color> <!-- Green -->
+        <scale>1.1</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="style_V_author">
+      <IconStyle>
+        <color>ffff0000</color> <!-- Blue -->
+        <scale>0.9</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/target.png</href></Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- ESTILOS PREEXISTENTES (OUTROS) -->
+    <Style id="style_M_pre">
+      <IconStyle>
+        <color>ff00ffff</color> <!-- Yellow/Gold -->
+        <scale>1.2</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="style_P_pre">
+      <IconStyle>
+        <color>ffff00ff</color> <!-- Magenta -->
+        <scale>1.1</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="style_V_pre">
+      <IconStyle>
+        <color>ffcccccc</color> <!-- Grey -->
+        <scale>0.9</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/target.png</href></Icon>
+      </IconStyle>
+    </Style>
+
+    <Style id="lineStyle">
+      <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
+      <PolyStyle><color>400000ff</color></PolyStyle>
+    </Style>
+
+    <Placemark>
+      <name>Perímetro</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing><coordinates>
+          -48.585649950121656,-6.136557940030087,0
+          -48.583149626153066,-6.138312180538019,0
+          -48.58240874881296,-6.141519374091401,0
+          -48.57920547234519,-6.142976567202873,0
+          -48.57709582375284,-6.145743220249848,0
+          -48.57400030430992,-6.1426201737498305,0
+          -48.57375894677282,-6.144117980527021,0
+          -48.574109929796556,-6.145325716327744,0
+          -48.57326992121775,-6.147433880368381,0
+          -48.573116211042894,-6.147691577833976,0
+          -48.57268047667127,-6.148276725361878,0
+          -48.57266941077999,-6.148990175567822,0
+          -48.5727271892843,-6.150339230838366,0
+          -48.57237184221639,-6.150559866925226,0
+          -48.57068468613769,-6.151551564896118,0
+          -48.56979948885884,-6.152069387844468,0
+          -48.56887071825397,-6.1540787028989525,0
+          -48.56800597276599,-6.155905651262199,0
+          -48.567132140137545,-6.158124064172079,0
+          -48.56611746373408,-6.1589120160915565,0
+          -48.56579579214676,-6.15909111378955,0
+          -48.56540093118755,-6.159384373431381,0
+          -48.56501601133221,-6.1598284267116306,0
+          -48.5646287259822,-6.16019102514996,0
+          -48.56426447059222,-6.160652064246237,0
+          -48.56345725288981,-6.161460098394203,0
+          -48.56300247005911,-6.162074109670941,0
+          -48.56250879456874,-6.162493575409348,0
+          -48.56219498923541,-6.162836017071104,0
+          -48.561408561640334,-6.163729226356738,0
+          -48.5603823878407,-6.164916505266618,0
+          -48.55951749215181,-6.16584603596832,0
+          -48.55872970663202,-6.166801070802501,0
+          -48.557724921918854,-6.168039838043385,0
+          -48.55762779354416,-6.169093687526065,0
+          -48.55737605813096,-6.170506411388284,0
+          -48.557374769650146,-6.171130600292489,0
+          -48.55832223644095,-6.171838082596074,0
+          -48.559494928727275,-6.172753499561937,0
+          -48.55997723451852,-6.173337156820552,0
+          -48.560018957563344,-6.173313279450209,0
+          -48.55977821806292,-6.174290903452607,0
+          -48.56016616494876,-6.174958789074285,0
+          -48.56109650456525,-6.176551257951026,0
+          -48.56200912175546,-6.178054791377445,0
+          -48.56566966304225,-6.178264359952723,0
+          -48.5673990138334,-6.177823500031278,0
+          -48.56872714964361,-6.178365525620179,0
+          -48.5687811677327,-6.178362609275201,0
+          -48.56959332582376,-6.179460602972357,0
+          -48.570437493024784,-6.180046020385565,0
+          -48.57263011594078,-6.1781464768874885,0
+          -48.574007756645074,-6.175793039885438,0
+          -48.57565678680461,-6.175327178582942,0
+          -48.576521234533686,-6.1747948031896875,0
+          -48.57752712991563,-6.173579448065137,0
+          -48.579940924788055,-6.173169238318836,0
+          -48.58190248028892,-6.171869179068721,0
+          -48.5840115891179,-6.172381083110877,0
+          -48.58550408526214,-6.1729403364756,0
+          -48.58676629866652,-6.172603752444917,0
+          -48.586845770557154,-6.172444224032145,0
+          -48.58670557848489,-6.172192050323636,0
+          -48.58696849515471,-6.172066434209303,0
+          -48.5870507156807,-6.171838316903557,0
+          -48.587238252377475,-6.171506916470195,0
+          -48.58743266356803,-6.171452392556965,0
+          -48.58754421795432,-6.171527193713651,0
+          -48.587657077094335,-6.1713136764697705,0
+          -48.587906587638415,-6.1714363735816535,0
+          -48.58826800719419,-6.171355942989775,0
+          -48.58866453763546,-6.171379612628021,0
+          -48.58893506099176,-6.171129480683032,0
+          -48.589500627005506,-6.170661522776075,0
+          -48.58979228593962,-6.158689861214467,0
+          -48.589408424895524,-6.157765675797603,0
+          -48.589052683364386,-6.156713209235172,0
+          -48.58870267033491,-6.1556946420078145,0
+          -48.58834275494261,-6.154645259991644,0
+          -48.58798588758152,-6.153593787882682,0
+          -48.58763018124536,-6.152551745613448,0
+          -48.58726995728823,-6.151495761373448,0
+          -48.586925706444156,-6.150486201113944,0
+          -48.58659436956147,-6.149507944230807,0
+          -48.58625554036294,-6.14852214644927,0
+          -48.585907079027194,-6.147491691963596,0
+          -48.58556263476105,-6.146467318829128,0
+          -48.5852245866668,-6.145456122065834,0
+          -48.584897759167674,-6.144475029731206,0
+          -48.58457704939654,-6.143535592375977,0
+          -48.58427215100849,-6.142624694815898,0
+          -48.58397582306234,-6.141733594043689,0
+          -48.58372643182384,-6.140822061906951,0
+          -48.58369287554749,-6.140176171752104,0
+          -48.583789999863086,-6.139553095429302,0
+          -48.58400241193621,-6.138967711732081,0
+          -48.58430072040522,-6.13845771777338,0
+          -48.58460254698855,-6.138006507678455,0
+          -48.585114689940575,-6.137345406492339,0
+          -48.585314614362886,-6.13696095762485,0
+          -48.585354627266256,-6.136900092088074,0
+          -48.585400365436534,-6.136833798621761,0
+          -48.585440597311646,-6.13677864540767,0
+          -48.58548081221733,-6.136725453438035,0
+          -48.585649950121656,-6.136557940030087,0
+        </coordinates></LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>D76-M-B126</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: D76)
+        Norte UTM: 9321097.8970
+        Leste UTM: 767205.3120
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: D76)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9321097.8970</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767205.3120</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.585649950121656,-6.136557940030087,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DQQW-M-0181</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: DQQW)
+        Norte UTM: 9320902.5600
+        Leste UTM: 767481.3180
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: DQQW)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320902.5600</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767481.3180</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.583149626153066,-6.138312180538019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1059</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320547.3470
+        Leste UTM: 767561.7590
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320547.3470</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767561.7590</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58240874881296,-6.141519374091401,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1050A</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320384.5200
+        Leste UTM: 767915.7530
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320384.5200</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767915.7530</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57920547234519,-6.142976567202873,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DQQW-M-0058</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: DQQW)
+        Norte UTM: 9320077.3600
+        Leste UTM: 768147.9840
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: DQQW)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320077.3600</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768147.9840</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57709582375284,-6.145743220249848,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A7P-M-1264</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: A7P)
+        Norte UTM: 9320421.3410
+        Leste UTM: 768492.3400
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: A7P)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320421.3410</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768492.3400</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57400030430992,-6.1426201737498305,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1203</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320255.5020
+        Leste UTM: 768518.3160
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320255.5020</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768518.3160</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57375894677282,-6.144117980527021,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D76-M-B164</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: D76)
+        Norte UTM: 9320122.0540
+        Leste UTM: 768478.8430
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: D76)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320122.0540</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768478.8430</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.574109929796556,-6.145325716327744,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1202</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319888.3840
+        Leste UTM: 768570.8050
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319888.3840</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768570.8050</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57326992121775,-6.147433880368381,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1201</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319859.7950
+        Leste UTM: 768587.6970
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319859.7950</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768587.6970</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.573116211042894,-6.147691577833976,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1200</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319794.8350
+        Leste UTM: 768635.6550
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319794.8350</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768635.6550</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57268047667127,-6.148276725361878,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1199</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319715.8930
+        Leste UTM: 768636.5220
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319715.8930</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768636.5220</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57266941077999,-6.148990175567822,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1198</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319566.6620
+        Leste UTM: 768629.4460
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319566.6620</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768629.4460</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.5727271892843,-6.150339230838366,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1197</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319542.0720
+        Leste UTM: 768668.6850
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319542.0720</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768668.6850</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57237184221639,-6.150559866925226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1196</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319431.5010
+        Leste UTM: 768855.0160
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319431.5010</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768855.0160</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57068468613769,-6.151551564896118,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1195</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319373.7630
+        Leste UTM: 768952.7790
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319373.7630</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768952.7790</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56979948885884,-6.152069387844468,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1194</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319150.9830
+        Leste UTM: 769054.6160
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319150.9830</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769054.6160</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56887071825397,-6.1540787028989525,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1193</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318948.4120
+        Leste UTM: 769149.4540
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318948.4120</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769149.4540</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56800597276599,-6.155905651262199,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A7P-M-1263</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: A7P)
+        Norte UTM: 9318702.5240
+        Leste UTM: 769245.1000
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: A7P)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318702.5240</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769245.1000</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.567132140137545,-6.158124064172079,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1192</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318614.8320
+        Leste UTM: 769357.0630
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318614.8320</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769357.0630</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56611746373408,-6.1589120160915565,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1191</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318594.8540
+        Leste UTM: 769392.5930
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318594.8540</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769392.5930</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56579579214676,-6.15909111378955,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1190</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318562.2080
+        Leste UTM: 769436.1700
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318562.2080</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769436.1700</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56540093118755,-6.159384373431381,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1189</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318512.8830
+        Leste UTM: 769478.5700
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318512.8830</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769478.5700</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56501601133221,-6.1598284267116306,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1188</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318472.5690
+        Leste UTM: 769521.2730
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318472.5690</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769521.2730</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.5646287259822,-6.16019102514996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1187</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318421.3750
+        Leste UTM: 769561.3760
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318421.3750</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769561.3760</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56426447059222,-6.160652064246237,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1186</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318331.5650
+        Leste UTM: 769650.3550
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318331.5650</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769650.3550</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56345725288981,-6.161460098394203,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1185</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318263.4000
+        Leste UTM: 769700.4050
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318263.4000</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769700.4050</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56300247005911,-6.162074109670941,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1184</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318216.7400
+        Leste UTM: 769754.8600
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318216.7400</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769754.8600</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56250879456874,-6.162493575409348,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1183</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318178.6930
+        Leste UTM: 769789.4360
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318178.6930</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769789.4360</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56219498923541,-6.162836017071104,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1182</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318079.4690
+        Leste UTM: 769876.0690
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318079.4690</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769876.0690</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.561408561640334,-6.163729226356738,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1181</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317947.5870
+        Leste UTM: 769989.1010
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317947.5870</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769989.1010</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.5603823878407,-6.164916505266618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1180A</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317844.3040
+        Leste UTM: 770084.4040
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317844.3040</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770084.4040</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.55951749215181,-6.16584603596832,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1179</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317738.2380
+        Leste UTM: 770171.1550
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317738.2380</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770171.1550</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.55872970663202,-6.166801070802501,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1069</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317600.6690
+        Leste UTM: 770281.7910
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317600.6690</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770281.7910</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.557724921918854,-6.168039838043385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1070</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317484.0200
+        Leste UTM: 770292.0120
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317484.0200</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770292.0120</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.55762779354416,-6.169093687526065,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A7P-M-1262</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: A7P)
+        Norte UTM: 9317327.5860
+        Leste UTM: 770319.1710
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: A7P)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317327.5860</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770319.1710</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.55737605813096,-6.170506411388284,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1178</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317258.5240
+        Leste UTM: 770318.9970
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317258.5240</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770318.9970</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.557374769650146,-6.171130600292489,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1177</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317180.7280
+        Leste UTM: 770213.7220
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317180.7280</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770213.7220</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.55832223644095,-6.171838082596074,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1176</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317080.0400
+        Leste UTM: 770083.4020
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317080.0400</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770083.4020</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.559494928727275,-6.172753499561937,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1175</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317015.7080
+        Leste UTM: 770029.6990
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317015.7080</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770029.6990</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.55997723451852,-6.173337156820552,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1174</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317018.3710
+        Leste UTM: 770025.0910
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317018.3710</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770025.0910</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.560018957563344,-6.173313279450209,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1173</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316910.0830
+        Leste UTM: 770051.2530
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316910.0830</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770051.2530</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.55977821806292,-6.174290903452607,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1172</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316836.3840
+        Leste UTM: 770007.9560
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316836.3840</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>770007.9560</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56016616494876,-6.174958789074285,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1171</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316660.6630
+        Leste UTM: 769904.1300
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316660.6630</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769904.1300</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56109650456525,-6.176551257951026,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A7P-M-1261</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: A7P)
+        Norte UTM: 9316494.7730
+        Leste UTM: 769802.3120
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: A7P)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316494.7730</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769802.3120</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56200912175546,-6.178054791377445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1170</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316473.4420
+        Leste UTM: 769396.8690
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316473.4420</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769396.8690</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56566966304225,-6.178264359952723,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1169</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316523.0950
+        Leste UTM: 769205.5990
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316523.0950</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769205.5990</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.5673990138334,-6.177823500031278,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1168</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316463.7970
+        Leste UTM: 769058.2590
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316463.7970</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769058.2590</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56872714964361,-6.178365525620179,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1167</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316464.1470
+        Leste UTM: 769052.2790
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316464.1470</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>769052.2790</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.5687811677327,-6.178362609275201,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1166</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316343.0750
+        Leste UTM: 768961.7930
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316343.0750</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768961.7930</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.56959332582376,-6.179460602972357,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A7P-M-1260</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: A7P)
+        Norte UTM: 9316278.7310
+        Leste UTM: 768868.0220
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: A7P)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316278.7310</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768868.0220</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.570437493024784,-6.180046020385565,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1076</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316490.0060
+        Leste UTM: 768626.1910
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316490.0060</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768626.1910</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57263011594078,-6.1781464768874885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1075</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316751.0870
+        Leste UTM: 768474.8310
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316751.0870</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768474.8310</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.574007756645074,-6.175793039885438,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1074</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316803.4620
+        Leste UTM: 768292.4670
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316803.4620</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768292.4670</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57565678680461,-6.175327178582942,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1073</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316862.8000
+        Leste UTM: 768197.0140
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316862.8000</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768197.0140</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.576521234533686,-6.1747948031896875,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1072</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9316997.7740
+        Leste UTM: 768086.2420
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9316997.7740</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>768086.2420</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.57752712991563,-6.173579448065137,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1071</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317044.3750
+        Leste UTM: 767819.1660
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317044.3750</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767819.1660</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.579940924788055,-6.173169238318836,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1070</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317189.2000
+        Leste UTM: 767602.6140
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317189.2000</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767602.6140</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58190248028892,-6.171869179068721,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1069</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317133.6230
+        Leste UTM: 767368.8130
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317133.6230</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767368.8130</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.5840115891179,-6.172381083110877,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1068</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317072.4970
+        Leste UTM: 767203.2670
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317072.4970</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767203.2670</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58550408526214,-6.1729403364756,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1067</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317110.3700
+        Leste UTM: 767063.6700
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317110.3700</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767063.6700</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58676629866652,-6.172603752444917,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D76-P-I344</name>
+      <styleUrl>#style_P_pre</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Preexistente (Código: D76)
+        Norte UTM: 9317128.0600
+        Leste UTM: 767054.9500
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: D76)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317128.0600</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767054.9500</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.586845770557154,-6.172444224032145,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1089</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317155.8900
+        Leste UTM: 767070.6000
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317155.8900</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767070.6000</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58670557848489,-6.172192050323636,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1088</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317169.9200
+        Leste UTM: 767041.5500
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317169.9200</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767041.5500</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58696849515471,-6.172066434209303,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1087</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317195.2000
+        Leste UTM: 767032.5600
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317195.2000</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767032.5600</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.5870507156807,-6.171838316903557,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1086</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317231.9600
+        Leste UTM: 767011.9600
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317231.9600</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767011.9600</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.587238252377475,-6.171506916470195,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1085</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317238.0900
+        Leste UTM: 766990.4600
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317238.0900</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766990.4600</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58743266356803,-6.171452392556965,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D76-P-I338</name>
+      <styleUrl>#style_P_pre</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Preexistente (Código: D76)
+        Norte UTM: 9317229.8700
+        Leste UTM: 766978.0700
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: D76)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317229.8700</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766978.0700</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58754421795432,-6.171527193713651,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1083</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317253.5500
+        Leste UTM: 766965.6800
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317253.5500</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766965.6800</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.587657077094335,-6.1713136764697705,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D76-P-I336</name>
+      <styleUrl>#style_P_pre</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Preexistente (Código: D76)
+        Norte UTM: 9317240.1000
+        Leste UTM: 766937.9900
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: D76)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317240.1000</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766937.9900</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.587906587638415,-6.1714363735816535,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1081</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317249.1800
+        Leste UTM: 766898.0100
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317249.1800</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766898.0100</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58826800719419,-6.171355942989775,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1066</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317246.7600
+        Leste UTM: 766854.0900
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317246.7600</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766854.0900</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58866453763546,-6.171379612628021,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D76-P-I333</name>
+      <styleUrl>#style_P_pre</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Preexistente (Código: D76)
+        Norte UTM: 9317274.5700
+        Leste UTM: 766824.2600
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: D76)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317274.5700</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766824.2600</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58893506099176,-6.171129480683032,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-M-1043</name>
+      <styleUrl>#style_M_author</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9317326.6279
+        Leste UTM: 766761.8687
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9317326.6279</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766761.8687</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.589500627005506,-6.170661522776075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>B91-M-6702</name>
+      <styleUrl>#style_M_pre</styleUrl>
+      <description>
+        Tipo: Marco (Materializado)
+        Origem: Preexistente (Código: B91)
+        Norte UTM: 9318651.3080
+        Leste UTM: 766735.5600
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Marco (Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Preexistente (Código: B91)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318651.3080</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766735.5600</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58979228593962,-6.158689861214467,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0419</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318753.3671
+        Leste UTM: 766778.5280
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318753.3671</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766778.5280</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.589408424895524,-6.157765675797603,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0418</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318869.6332
+        Leste UTM: 766818.4464
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318869.6332</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766818.4464</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.589052683364386,-6.156713209235172,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0417</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9318982.1516
+        Leste UTM: 766857.7136
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9318982.1516</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766857.7136</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58870267033491,-6.1556946420078145,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0416</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319098.0744
+        Leste UTM: 766898.0928
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319098.0744</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766898.0928</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58834275494261,-6.154645259991644,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0415</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319214.2300
+        Leste UTM: 766938.1356
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319214.2300</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766938.1356</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58798588758152,-6.153593787882682,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0414</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319329.3429
+        Leste UTM: 766978.0452
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319329.3429</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>766978.0452</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58763018124536,-6.152551745613448,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0413</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319445.9961
+        Leste UTM: 767018.4621
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319445.9961</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767018.4621</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58726995728823,-6.151495761373448,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0412</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319557.5210
+        Leste UTM: 767057.0871
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319557.5210</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767057.0871</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.586925706444156,-6.150486201113944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0411</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319665.5890
+        Leste UTM: 767094.2665
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319665.5890</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767094.2665</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58659436956147,-6.149507944230807,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0410</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319774.4876
+        Leste UTM: 767132.2794
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319774.4876</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767132.2794</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58625554036294,-6.14852214644927,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0409</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9319888.3222
+        Leste UTM: 767171.3813
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9319888.3222</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767171.3813</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.585907079027194,-6.147491691963596,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0408</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320001.4860
+        Leste UTM: 767210.0354
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320001.4860</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767210.0354</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58556263476105,-6.146467318829128,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0407</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320113.1952
+        Leste UTM: 767247.9747
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320113.1952</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767247.9747</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.5852245866668,-6.145456122065834,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0406</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320221.5793
+        Leste UTM: 767284.6565
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320221.5793</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767284.6565</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.584897759167674,-6.144475029731206,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0405</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320325.3578
+        Leste UTM: 767320.6401
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320325.3578</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767320.6401</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58457704939654,-6.143535592375977,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0404</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320425.9866
+        Leste UTM: 767354.8586
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320425.9866</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767354.8586</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58427215100849,-6.142624694815898,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0403</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320524.4294
+        Leste UTM: 767388.1182
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320524.4294</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767388.1182</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58397582306234,-6.141733594043689,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0402</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320625.1562
+        Leste UTM: 767416.1904
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320625.1562</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767416.1904</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58372643182384,-6.140822061906951,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0401</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320696.6004
+        Leste UTM: 767420.2289
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320696.6004</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767420.2289</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58369287554749,-6.140176171752104,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0400</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320765.5858
+        Leste UTM: 767409.7847
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320765.5858</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767409.7847</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.583789999863086,-6.139553095429302,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0399</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320830.4585
+        Leste UTM: 767386.5549
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320830.4585</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767386.5549</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58400241193621,-6.138967711732081,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0398</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320887.0330
+        Leste UTM: 767353.7754
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320887.0330</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767353.7754</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58430072040522,-6.13845771777338,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0397</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9320937.1054
+        Leste UTM: 767320.5769
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9320937.1054</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767320.5769</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58460254698855,-6.138006507678455,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-P-1058</name>
+      <styleUrl>#style_P_author</styleUrl>
+      <description>
+        Tipo: Ponto (Físico)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9321010.5050
+        Leste UTM: 767264.1930
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Ponto (Físico)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9321010.5050</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767264.1930</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.585114689940575,-6.137345406492339,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0396</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9321053.1400
+        Leste UTM: 767242.2455
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9321053.1400</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767242.2455</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.585314614362886,-6.13696095762485,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0395</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9321059.8941
+        Leste UTM: 767237.8449
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9321059.8941</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767237.8449</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.585354627266256,-6.136900092088074,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0394</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9321067.2516
+        Leste UTM: 767232.8130
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9321067.2516</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767232.8130</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.585400365436534,-6.136833798621761,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0393</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9321073.3738
+        Leste UTM: 767228.3853
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9321073.3738</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767228.3853</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.585440597311646,-6.13677864540767,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DYE-V-0392</name>
+      <styleUrl>#style_V_author</styleUrl>
+      <description>
+        Tipo: Virtual (Não Materializado)
+        Origem: Implantado pelo Autor (Alex-Rausen)
+        Norte UTM: 9321079.2790
+        Leste UTM: 767223.9585
+      </description>
+      <ExtendedData>
+        <Data name="Tipo">
+          <value>Virtual (Não Materializado)</value>
+        </Data>
+        <Data name="Origem">
+          <value>Implantado pelo Autor (Alex-Rausen)</value>
+        </Data>
+        <Data name="Norte_UTM">
+          <value>9321079.2790</value>
+        </Data>
+        <Data name="Leste_UTM">
+          <value>767223.9585</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-48.58548081221733,-6.136725453438035,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

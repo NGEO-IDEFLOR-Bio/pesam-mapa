@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pontos - Parque Estadual da Serra dos Martírios/Andorinhas</name>
+    <description>Todos os pontos (Marcos e Extremos) descritos na Lei Estadual Nº 5982/1996.</description>
+    
+    <Folder>
+      <name>Pontos Extremos</name>
+      <Placemark>
+        <name>Ponto Extremo Norte</name>
+        <description>48º32'09" Long W, 06º04'36" Lat Sul</description>
+        <Point><coordinates>-48.535833,-6.076667,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponto Extremo Sul / Marco V</name>
+        <description>48º23'10" Long W, 06º22'39" Lat Sul</description>
+        <Point><coordinates>-48.386111,-6.377500,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponto Extremo Leste</name>
+        <description>48º23'06" Long W, 06º22'09" Lat Sul</description>
+        <Point><coordinates>-48.385000,-6.369167,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponto Extremo Oeste</name>
+        <description>48º35'20" Long W, 06º12'53" Lat Sul</description>
+        <Point><coordinates>-48.588889,-6.214722,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Marcos do Parque</name>
+      <Placemark>
+        <name>Marco I</name>
+        <description>48º27'23" Long W, 06º12'48" Lat Sul</description>
+        <Point><coordinates>-48.456389,-6.213333,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco II</name>
+        <description>48º26'01" Long W, 06º15'31" Lat Sul</description>
+        <Point><coordinates>-48.433611,-6.258611,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco IV</name>
+        <description>48º24'30" Long W, 06º18'45" Lat Sul</description>
+        <Point><coordinates>-48.408333,-6.312500,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco VI</name>
+        <description>48º26'57" Long W, 06º18'23" Lat Sul</description>
+        <Point><coordinates>-48.449167,-6.306389,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco VII</name>
+        <description>48º28'41" Long W, 06º12'53" Lat Sul</description>
+        <Point><coordinates>-48.478056,-6.214722,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco VIII</name>
+        <description>48º30'03" Long W, 06º13'52" Lat Sul</description>
+        <Point><coordinates>-48.500833,-6.231111,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco IX</name>
+        <description>48º29'08" Long W, 06º18'53" Lat Sul</description>
+        <Point><coordinates>-48.485556,-6.314722,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco X</name>
+        <description>48º33'31" Long W, 06º17'29" Lat Sul (No texto original aparece apenas como 'Marco ,')</description>
+        <Point><coordinates>-48.558611,-6.291389,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco XI</name>
+        <description>48º33'46" Long W, 06º16'50" Lat Sul</description>
+        <Point><coordinates>-48.562778,-6.280556,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco XII</name>
+        <description>48º34'30" Long W, 06º07'03" Lat Sul</description>
+        <Point><coordinates>-48.575000,-6.117500,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco XIII</name>
+        <description>48º33'34" Long W, 06º06'19" Lat Sul</description>
+        <Point><coordinates>-48.559444,-6.105278,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco XIV</name>
+        <description>48º30'01" Long W, 06º05'28" Lat Sul</description>
+        <Point><coordinates>-48.500278,-6.091111,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco XV</name>
+        <description>48º27'24" Long W, 06º11'05" Lat Sul</description>
+        <Point><coordinates>-48.456667,-6.184722,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Marco XVI</name>
+        <description>48º27'38" Long W, 06º13'00" Lat Sul</description>
+        <Point><coordinates>-48.460556,-6.216667,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
