@@ -41,14 +41,6 @@ projeto_mapa/
 └── images/                      # Fotos de campo
 ```
 
-## Hospedagem
-
-Este projeto é compatível com GitHub Pages. Para publicar:
-
-1. Fork este repositório
-2. Habilite GitHub Pages nas configurações
-3. Acesse `https://seu-usuario.github.io/nome-do-repo/`
-
 ## Dados
 
 Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará - IDEFLOR-Bio
