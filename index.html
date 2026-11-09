@@ -1,401 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PESAM - Parque Estadual Serra dos Martírios/Andorinhas - Mapa Interativo">
-    <title>PESAM - Mapa Interativo do Parque</title>
-    
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="refresh" content="5;url=https://ngeo-ideflor-bio.github.io/visualizador/">
+  <title>Repositório aposentado — PESAM</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #1f2937;
+      background: #f3f4f6;
+    }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+    }
+    main {
+      max-width: 38rem;
+      margin: 1.5rem;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 0.75rem;
+      box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+      text-align: center;
+    }
+    h1 { margin-top: 0; }
+    a { color: #075985; }
+  </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="header-brand">
-            <div class="header-logo">
-                <img src="https://ideflorbio.pa.gov.br/wp-content/uploads/2023/11/Logomarca-Ideflor-Bio-Horizontal-Branca-2-1.png" alt="IDEFLOR-Bio" style="height: 36px; width: auto;">
-            </div>
-            <div class="header-title">
-                <h1>PESAM</h1>
-                <span>Parque Estadual Serra dos Martírios/Andorinhas</span>
-            </div>
-        </div>
-        <div class="header-actions">
-            <button class="btn btn-secondary" id="btnAbout" title="Sobre o Projeto">
-                <i class="fas fa-info-circle"></i>
-                <span>Sobre</span>
-            </button>
-            <button class="btn btn-secondary" id="btnFullscreen" title="Tela Cheia">
-                <i class="fas fa-expand"></i>
-            </button>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Map Container -->
-        <div id="map" class="map-container"></div>
-        
-        <!-- Layer Control Panel (Left) -->
-        <aside class="sidebar sidebar-left" id="layerPanel">
-            <div class="panel-header">
-                <h2><i class="fas fa-layer-group"></i> Camadas</h2>
-                <button class="panel-close" id="closeLayerPanel" title="Fechar">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            
-            <div class="panel-content">
-                <!-- Basemap Section -->
-                <div class="layer-section">
-                    <div class="layer-section-header" data-target="basemapList">
-                        <span>Mapas Base</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="layer-section-content" id="basemapList">
-                        <div class="basemap-item active" data-layer="osm">
-                            <div class="basemap-preview osm"></div>
-                            <span>OpenStreetMap</span>
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="basemap-item" data-layer="esri">
-                            <div class="basemap-preview esri"></div>
-                            <span>ESRI Satellite</span>
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="basemap-item" data-layer="google">
-                            <div class="basemap-preview google"></div>
-                            <span>Google Satellite</span>
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="basemap-item" data-layer="bing">
-                            <div class="basemap-preview bing"></div>
-                            <span>Bing Satellite</span>
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="basemap-item" data-layer="carto">
-                            <div class="basemap-preview carto"></div>
-                            <span>CartoDB Voyager</span>
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="basemap-item" data-layer="carto_nolabels">
-                            <div class="basemap-preview carto_nolabels"></div>
-                            <span>CartoDB (sem rótulos)</span>
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="basemap-item" data-layer="sentinel">
-                            <div class="basemap-preview sentinel"></div>
-                            <span>Sentinel-2 2024</span>
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Data Layers Section -->
-                <div class="layer-section">
-                    <div class="layer-section-header" data-target="dataLayerList">
-                        <span>Camadas de Dados</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="layer-section-content" id="dataLayerList">
-                        <div class="layer-item">
-                            <label class="layer-toggle">
-                                <input type="checkbox" id="layerPesam" checked>
-                                <span class="toggle-slider"></span>
-                            </label>
-                            <div class="layer-color" style="background: #1565C0;"></div>
-                            <span class="layer-name">Limite do PESAM</span>
-                            <button class="layer-info" data-layer="pesam" title="Informações">
-                                <i class="fas fa-info-circle"></i>
-                            </button>
-                        </div>
-                        <div class="layer-item">
-                            <label class="layer-toggle">
-                                <input type="checkbox" id="layerZoneamento">
-                                <span class="toggle-slider"></span>
-                            </label>
-                            <div class="layer-color" style="background: linear-gradient(90deg, #4CAF50, #8BC34A);"></div>
-                            <span class="layer-name">Zoneamento</span>
-                            <button class="layer-info" data-layer="zoneamento" title="Informações">
-                                <i class="fas fa-info-circle"></i>
-                            </button>
-                        </div>
-                        <div class="layer-item">
-                            <label class="layer-toggle">
-                                <input type="checkbox" id="layerFazenda" checked>
-                                <span class="toggle-slider"></span>
-                            </label>
-                            <div class="layer-color" style="background: #FF5722;"></div>
-                            <span class="layer-name">Fazenda Água Azul</span>
-                            <button class="layer-info" data-layer="fazenda" title="Informações">
-                                <i class="fas fa-info-circle"></i>
-                            </button>
-                        </div>
-                        <div class="layer-item">
-                            <label class="layer-toggle">
-                                <input type="checkbox" id="layerPontos" checked>
-                                <span class="toggle-slider"></span>
-                            </label>
-                            <div class="layer-color" style="background: #9C27B0;"></div>
-                            <span class="layer-name">Pontos de Referência</span>
-                            <button class="layer-info" data-layer="pontos" title="Informações">
-                                <i class="fas fa-info-circle"></i>
-                            </button>
-                        </div>
-                        <div class="layer-item">
-                            <label class="layer-toggle">
-                                <input type="checkbox" id="layerPhotos">
-                                <span class="toggle-slider"></span>
-                            </label>
-                            <div class="layer-color" style="background: #00BCD4;"></div>
-                            <span class="layer-name">Fotos de Campo</span>
-                            <button class="layer-info" data-layer="fotos" title="Informações">
-                                <i class="fas fa-info-circle"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Download Section -->
-                <div class="layer-section">
-                    <div class="layer-section-header" data-target="downloadSection">
-                        <span>Exportar Dados</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="layer-section-content" id="downloadSection">
-                        <p class="download-intro">Baixe os dados geoespaciais em formato KML:</p>
-                        <div class="download-buttons">
-                            <button class="btn btn-download" data-file="PESAM.kml">
-                                <i class="fas fa-download"></i>
-                                Limite PESAM
-                            </button>
-                            <button class="btn btn-download" data-file="zoneamento_PESAM.kml">
-                                <i class="fas fa-download"></i>
-                                Zoneamento
-                            </button>
-                            <button class="btn btn-download" data-file="Fazenda_Agua_Azul_Simbologia.kml">
-                                <i class="fas fa-download"></i>
-                                Fazenda Água Azul
-                            </button>
-                            <button class="btn btn-download" data-file="pontos.kml">
-                                <i class="fas fa-download"></i>
-                                Pontos de Referência
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </aside>
-        
-        <!-- Tool Panel (Right) -->
-        <aside class="sidebar sidebar-right" id="toolPanel">
-            <div class="panel-header">
-                <h2><i class="fas fa-tools"></i> Ferramentas</h2>
-                <button class="panel-close" id="closeToolPanel" title="Fechar">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            
-            <div class="panel-content">
-                <!-- Navigation Tools -->
-                <div class="tool-section">
-                    <h3>Navegação</h3>
-                    <div class="tool-buttons">
-                        <button class="tool-btn" id="btnZoomIn" title="Aumentar Zoom">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <button class="tool-btn" id="btnZoomOut" title="Diminuir Zoom">
-                            <i class="fas fa-minus"></i>
-                        </button>
-                        <button class="tool-btn" id="btnLocate" title="Minha Localização">
-                            <i class="fas fa-location-crosshairs"></i>
-                        </button>
-                        <button class="tool-btn" id="btnCenter" title="Centralizar">
-                            <i class="fas fa-bullseye"></i>
-                        </button>
-                    </div>
-                </div>
-                
-                <!-- Quick Coordinates -->
-                <div class="tool-section">
-                    <h3>Coordenadas do Cursor</h3>
-                    <div class="coord-display">
-                        <div class="coord-row">
-                            <span class="coord-label">Lat:</span>
-                            <span class="coord-value" id="cursorLat">-6.280</span>
-                        </div>
-                        <div class="coord-row">
-                            <span class="coord-label">Lon:</span>
-                            <span class="coord-value" id="cursorLon">-48.417</span>
-                        </div>
-                        <div class="coord-row">
-                            <span class="coord-label">Zoom:</span>
-                            <span class="coord-value" id="cursorZoom">12</span>
-                        </div>
-                    </div>
-                    <button class="btn btn-small" id="btnCopyCoords">
-                        <i class="fas fa-copy"></i> Copiar
-                    </button>
-                </div>
-                
-                <!-- Legend -->
-                <div class="tool-section">
-                    <h3>Legenda</h3>
-                    <div class="legend">
-                        <div class="legend-item">
-                            <div class="legend-color" style="background: #1565C0;"></div>
-                            <span>Limite PESAM</span>
-                        </div>
-                        <div class="legend-item">
-                            <div class="legend-color" style="background: linear-gradient(90deg, #4CAF50, #8BC34A);"></div>
-                            <span>Zoneamento (ZC/ZUD)</span>
-                        </div>
-                        <div class="legend-item">
-                            <div class="legend-color" style="background: #FF5722;"></div>
-                            <span>Fazenda Água Azul</span>
-                        </div>
-                        <div class="legend-item">
-                            <div class="legend-marker" style="background: #9C27B0;"></div>
-                            <span>Pontos de Referência</span>
-                        </div>
-                        <div class="legend-item">
-                            <div class="legend-marker" style="background: #00BCD4; border-radius: 50%;"></div>
-                            <span>Fotos de Campo</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Scale Info -->
-                <div class="tool-section">
-                    <h3>Escala</h3>
-                    <div class="scale-info" id="scaleInfo">
-                        <span>Carregando...</span>
-                    </div>
-                </div>
-            </div>
-        </aside>
-        
-        <!-- Toggle Buttons -->
-        <button class="sidebar-toggle" id="toggleLayerPanel" title="Camadas">
-            <i class="fas fa-layer-group"></i>
-        </button>
-        <button class="sidebar-toggle" id="toggleToolPanel" title="Ferramentas">
-            <i class="fas fa-tools"></i>
-        </button>
-        
-        <!-- Zoom Controls -->
-        <div class="zoom-controls">
-            <button class="zoom-btn" id="zoomInBtn">
-                <i class="fas fa-plus"></i>
-            </button>
-            <button class="zoom-btn" id="zoomOutBtn">
-                <i class="fas fa-minus"></i>
-            </button>
-        </div>
-        
-        <!-- Attribution -->
-        <div class="map-attribution" id="mapAttribution">
-            &copy; OpenStreetMap contributors
-        </div>
-    </main>
-    
-    <!-- Photo Modal -->
-    <div class="photo-modal" id="photoModal">
-        <div class="photo-modal-content">
-            <button class="photo-modal-close" id="closePhotoModal">
-                <i class="fas fa-times"></i>
-            </button>
-            <div class="photo-modal-image">
-                <img id="modalImage" src="" alt="Foto de campo">
-            </div>
-            <div class="photo-modal-info">
-                <h3 id="modalTitle">Título</h3>
-                <p id="modalDate">Data: --</p>
-                <p id="modalCoords">Coordenadas: --</p>
-            </div>
-        </div>
-    </div>
-    
-    <!-- About Modal -->
-    <div class="modal" id="aboutModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Sobre o Projeto</h2>
-                <button class="modal-close" id="closeAboutModal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <h3>PESAM - Mapa Interativo</h3>
-                <p>Este mapa interativo foi desenvolvido para apresentar os dados geoespaciais do Parque Estadual Serra dos Martírios/Andorinhas (PESAM), localizado no município de São Geraldo do Araguaia, Pará.</p>
-                
-                <h4>Funcionalidades</h4>
-                <ul>
-                    <li>Visualização de múltiplas camadas de dados geoespaciais</li>
-                    <li>Alternância entre diferentes mapas base (satélite, ruas, etc.)</li>
-                    <li>Exportação de dados em formato KML</li>
-                    <li>Exploração de fotos de campo com geolocalização</li>
-                    <li>Ferramentas de navegação e medição</li>
-                </ul>
-                
-                <h4>Dados</h4>
-                <p>Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará - IDEFLOR-Bio</p>
-                <p>Dados públicos sob Creative Commons CC BY 4.0</p>
-                
-                <h4>Tecnologias</h4>
-                <p>Leaflet.js | OpenStreetMap | ESRI | Google | Sentinel-2</p>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Info Modal -->
-    <div class="modal" id="infoModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 id="infoModalTitle">Informações</h2>
-                <button class="modal-close" id="closeInfoModal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body" id="infoModalBody">
-            </div>
-        </div>
-    </div>
-    
-    <!-- Loading Overlay -->
-    <div class="loading-overlay" id="loadingOverlay">
-        <div class="loading-spinner">
-            <i class="fas fa-spinner fa-spin"></i>
-            <span>Carregando mapa...</span>
-        </div>
-    </div>
-    
-    <!-- Toast -->
-    <div class="toast" id="toast">
-        <div class="toast-content">
-            <i class="fas fa-check-circle"></i>
-            <span id="toastMessage">Mensagem</span>
-        </div>
-    </div>
-
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    
-    <!-- KML Parser -->
-    <script src="js/kml.js"></script>
-    
-    <!-- Main App JS -->
-    <script src="js/app.js"></script>
+  <main>
+    <h1>Repositório aposentado</h1>
+    <p>Este mapa foi descontinuado. Você será redirecionado para o visualizador geoespacial atualizado do IDEFLOR-Bio.</p>
+    <p><a href="https://ngeo-ideflor-bio.github.io/visualizador/">Acessar o visualizador</a></p>
+    <p>O redirecionamento ocorrerá em alguns segundos.</p>
+  </main>
 </body>
 </html>
